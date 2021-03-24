@@ -23,7 +23,10 @@ public class EmpDetails {
 		System.out.println("Sucess");
 		
 		
+		int a =12;
+		String n = "14adad";
 		System.out.println("oneplus");
+
 			
 			
 			
