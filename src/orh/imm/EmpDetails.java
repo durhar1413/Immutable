@@ -21,6 +21,10 @@ public class EmpDetails {
 		System.out.println("code of s1 : "+System.identityHashCode(s1));
 		
 		System.out.println("Sucess");
+		
+		
+		int a =12;
+		String n = "14adad";
 			
 			
 			
