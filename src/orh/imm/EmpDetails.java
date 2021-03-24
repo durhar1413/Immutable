@@ -25,6 +25,8 @@ public class EmpDetails {
 		
 		int a =12;
 		String n = "14adad";
+		System.out.println("oneplus");
+
 			
 			
 			
