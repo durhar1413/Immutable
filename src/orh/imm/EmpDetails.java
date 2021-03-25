@@ -1,5 +1,8 @@
 package orh.imm;
 
+import java.util.Set;
+import java.util.TreeSet;
+
 public class EmpDetails {
 
 		public static void main(String[] args) {
@@ -26,12 +29,8 @@ public class EmpDetails {
 		int a =12;
 		String n = "14adad";
 		System.out.println("oneplus");
-
-			
-			
-			
-			
-			
+		 Set<Character> d = new TreeSet();
+		 
 		}
 
 	}
