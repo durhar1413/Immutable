@@ -29,8 +29,9 @@ public class EmpDetails {
 		int a =12;
 		String n = "14adad";
 		System.out.println("oneplus");
+		String s5 = "Selenium";
+		System.out.println("Its my Life");
 		 Set<Character> d = new TreeSet();
-		 
 		}
 
 	}
