@@ -1,5 +1,6 @@
 package orh.imm;
 
+import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -34,10 +35,29 @@ public class EmpDetails {
 		 Set<Character> d = new TreeSet();
 		 char[] c = s5.toCharArray();
 		 for (char e : c) {
-			 d.add(e);
+			 d.add(e);		 
+		  
 		}
 		 System.out.println(d);
+		 EmpDetails e = new EmpDetails();
+		 e.scanner();
+		 }
+		public static void scanner(){
+			int a ,res=0,rem=0;
+			Scanner s = new Scanner(System.in);
+			System.out.println("Enter the values : ");
+			int n = s.nextInt();
+			a=n;
+			while (a>0) {
+				rem=a%10;
+				res=(res*10)+rem;
+				a=a/10;
+			}
+			System.out.println("reverse"+res);
+		}
+		 
 		}
 
-	}
+		
+	
 
