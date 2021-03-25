@@ -33,12 +33,16 @@ public class EmpDetails {
 		String s5 = "Selenium";
 		System.out.println("Its my Life");
 		 Set<Character> d = new TreeSet();
-		 
+		 char[] c = s5.toCharArray();
+		 for (char e : c) {
+			 d.add(e);		 
+		  
+		}
+		 System.out.println(d);
 		 EmpDetails e = new EmpDetails();
 		 e.scanner();
-		 
-		}
-		public static void scanner() {
+		 }
+		public static void scanner(){
 			int a ,res=0,rem=0;
 			Scanner s = new Scanner(System.in);
 			System.out.println("Enter the values : ");
@@ -50,8 +54,10 @@ public class EmpDetails {
 				a=a/10;
 			}
 			System.out.println("reverse"+res);
-
+		}
+		 
 		}
 
-	}
+		
+	
 
