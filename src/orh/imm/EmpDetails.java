@@ -32,6 +32,11 @@ public class EmpDetails {
 		String s5 = "Selenium";
 		System.out.println("Its my Life");
 		 Set<Character> d = new TreeSet();
+		 char[] c = s5.toCharArray();
+		 for (char e : c) {
+			 d.add(e);
+		}
+		 System.out.println(d);
 		}
 
 	}
